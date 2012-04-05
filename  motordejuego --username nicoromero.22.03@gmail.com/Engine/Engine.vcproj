@@ -19,7 +19,7 @@
 			Name="Debug|Win32"
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
-			ConfigurationType="1"
+			ConfigurationType="2"
 			CharacterSet="1"
 			>
 			<Tool
@@ -174,6 +174,18 @@
 			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
+			<File
+				RelativePath=".\Game.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Renderer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Window.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
@@ -181,7 +193,27 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
+				RelativePath=".\Defines.h"
+				>
+			</File>
+			<File
 				RelativePath=".\Game.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Renderer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Structs.h"
+				>
+			</File>
+			<File
+				RelativePath=".\VertexBuffer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Window.h"
 				>
 			</File>
 		</Filter>
