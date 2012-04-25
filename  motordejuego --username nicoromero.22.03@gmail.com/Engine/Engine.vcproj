@@ -183,6 +183,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\VertexBuffer.inl"
+				>
+			</File>
+			<File
 				RelativePath=".\Window.cpp"
 				>
 			</File>
