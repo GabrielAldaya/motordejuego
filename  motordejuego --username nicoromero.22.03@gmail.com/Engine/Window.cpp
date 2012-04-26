@@ -22,7 +22,7 @@ bool Window::createWindow(unsigned int uiWidth, unsigned int uiHeight, HWND & hW
 		return false;
 
 
-	m_hWnd = CreateWindow("Engine", "Engine v0.1", WS_OVERLAPPEDWINDOW , CW_USEDEFAULT,
+	m_hWnd = CreateWindow("Engine", "Engine", WS_OVERLAPPEDWINDOW , CW_USEDEFAULT,
 							CW_USEDEFAULT, uiWidth +8 , uiHeight + 30, NULL, NULL , m_hInstance,
 							NULL);
 

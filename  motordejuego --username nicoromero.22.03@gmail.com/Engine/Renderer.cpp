@@ -1,6 +1,10 @@
 #include "Renderer.h"
-Renderer::Renderer(){}
+
+Renderer::Renderer(){
+}
+
 Renderer::~Renderer(){}
+
 bool Renderer::InitDX(HWND hWnd){
 IDirect3D9 * _pD3D = NULL;
 
